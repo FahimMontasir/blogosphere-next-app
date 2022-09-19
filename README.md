@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# `Blogosphere`
 
-## Getting Started
+is a full-featured blog publishing platform where you can earn money by writing blogs and selling products.
 
-First, run the development server:
+## How does it work?
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Influence audiences by writing blogs to buy your products
+2. Provide your product information to target audiences easily
+3. Sell affiliated products as well by motivating audiences
+4. Direct access to your target audience data(limited) for generating more sales. For example, send a special offer when the audiences birthday are near
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## `Technology used:`
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+NextJs, TypeScript, Tailwind CSS, Redux Toolkit and Query, Mongoose
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# ` Blogosphere expo app`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[Repo link](https://github.com/FahimMontasir/blogosphere)
 
-## Learn More
+## `Some of the core features:`
 
-To learn more about Next.js, take a look at the following resources:
+1. Sign in, Sign up and Sign out(firebase auth)
+2. Categories of blogs(like JavaScript, ReactJs)
+3. Reading screen feels like the medium.
+4. Dynamic greetings
+5. Post your blog( images will automatically be added) And many more!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`Technology:` React Native, Styled Components, React Native Paper, React Navigation 5, Firebase auth, and Firestore.
