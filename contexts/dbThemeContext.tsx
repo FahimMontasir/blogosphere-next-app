@@ -14,7 +14,7 @@ interface DBThemeProviderProps {
   children: React.ReactNode;
 }
 export const DBThemeProvider = ({ children }: DBThemeProviderProps) => {
-  const [screenSize, setScreenSize] = useState(undefined);
+  const [screenSize, setScreenSize] = useState<undefined | number>(undefined);
   const [currentColor, setCurrentColor] = useState("#03C9D7");
   const [currentMode, setCurrentMode] = useState("Light");
   const [themeSettings, setThemeSettings] = useState(false);

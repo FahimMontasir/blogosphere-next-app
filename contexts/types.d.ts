@@ -2,8 +2,8 @@ export interface DBThemeContextProps {
   currentColor: string;
   currentMode: string;
   activeMenu: boolean;
-  screenSize: undefined;
-  setScreenSize: React.Dispatch<React.SetStateAction<undefined>>;
+  screenSize: number | undefined;
+  setScreenSize: React.Dispatch<React.SetStateAction<number | undefined>>;
   handleClick: (clicked: string) => void;
   isClicked: typeof initialState;
   initialState: typeof initialState;

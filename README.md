@@ -9,15 +9,13 @@ is a full-featured blog publishing platform where you can earn money by writing 
 3. Sell affiliated products as well by motivating audiences
 4. Direct access to your target audience data(limited) for generating more sales. For example, send a special offer when the audiences birthday are near
 
-## `Technology used:`
-
-NextJs, TypeScript, Tailwind CSS, Redux Toolkit and Query, Mongoose
+`Technology used:` NextJs, TypeScript, Tailwind CSS, Redux Toolkit and Query, Mongoose
 
 # ` Blogosphere expo app`
 
 [Repo link](https://github.com/FahimMontasir/blogosphere)
 
-## `Some of the core features:`
+## Some of the core features:
 
 1. Sign in, Sign up and Sign out(firebase auth)
 2. Categories of blogs(like JavaScript, ReactJs)

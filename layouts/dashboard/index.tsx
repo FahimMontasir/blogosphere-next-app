@@ -1,14 +1,15 @@
 import React from "react";
+import { DBThemeProvider } from "../../contexts/dbThemeContext";
+import DBLayoutWithoutProvider from "./layout";
+
 interface Props {
   children: React.ReactNode;
 }
 
-const DBLayout = ({ children }: Props) => {
+export default function DBLayout({ children }: Props) {
   return (
-    <main>
-      <h1>layout</h1>
-      {children}
-    </main>
+    <DBThemeProvider>
+      <DBLayoutWithoutProvider>{children}</DBLayoutWithoutProvider>
+    </DBThemeProvider>
   );
-};
-export default DBLayout;
+}
