@@ -17,7 +17,7 @@ export const links = [
     title: "Dashboard",
     links: [
       {
-        name: "ecommerce",
+        name: "blog",
         icon: <FiShoppingBag />,
       },
     ],

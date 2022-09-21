@@ -1,5 +1,6 @@
 import React from "react";
 import { MdOutlineCancel } from "react-icons/md";
+import NavLink from "../../../components/common/NavLink";
 import { useDBThemeContext } from "../../../contexts/dbThemeContext";
 import { links } from "./Sidebar.config";
 
@@ -42,22 +43,19 @@ const Sidebar = () => {
                 <p className="text-gray-400 dark:text-gray-400 m-3 mt-4 uppercase">
                   {item.title}
                 </p>
-                {/* {item.links.map((link) => (
+                {item.links.map((link) => (
                   <NavLink
-                    to={`/${link.name}`}
+                    href={`/dashboard/${link.name}`}
                     key={link.name}
                     onClick={handleCloseSideBar}
-                    style={({ isActive }) => ({
-                      backgroundColor: isActive ? currentColor : "",
-                    })}
-                    className={({ isActive }) =>
-                      isActive ? activeLink : normalLink
-                    }
+                    activeLinkStyle={activeLink}
+                    normalLinkStyle={normalLink}
+                    backgroundColor={currentColor}
                   >
                     {link.icon}
                     <span className="capitalize ">{link.name}</span>
                   </NavLink>
-                ))} */}
+                ))}
               </div>
             ))}
           </div>
