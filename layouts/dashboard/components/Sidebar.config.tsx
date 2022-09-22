@@ -1,24 +1,17 @@
-import {
-  AiOutlineCalendar,
-  AiOutlineShoppingCart,
-  AiOutlineAreaChart,
-  AiOutlineBarChart,
-  AiOutlineStock,
-} from "react-icons/ai";
-import { FiShoppingBag, FiEdit, FiPieChart } from "react-icons/fi";
-import { BsKanban, BsBarChart } from "react-icons/bs";
-import { BiColorFill } from "react-icons/bi";
-import { IoMdContacts } from "react-icons/io";
-import { RiContactsLine, RiStockLine } from "react-icons/ri";
+import { TbGridDots } from "react-icons/tb";
+import { HiOutlineUserGroup } from "react-icons/hi";
+import { ImNewspaper } from "react-icons/im";
+import { AiOutlineShop } from "react-icons/ai";
+import { ROUTE_PATH } from "../../../utils/path";
 
-import { GiLouvrePyramid } from "react-icons/gi";
 export const links = [
   {
     title: "Dashboard",
     links: [
       {
-        name: "blog",
-        icon: <FiShoppingBag />,
+        name: "explore",
+        icon: <TbGridDots />,
+        path: ROUTE_PATH.dashboard.root,
       },
     ],
   },
@@ -27,75 +20,19 @@ export const links = [
     title: "Pages",
     links: [
       {
-        name: "orders",
-        icon: <AiOutlineShoppingCart />,
+        name: "audience",
+        icon: <HiOutlineUserGroup />,
+        path: ROUTE_PATH.dashboard.audience,
       },
       {
-        name: "employees",
-        icon: <IoMdContacts />,
+        name: "blog",
+        icon: <ImNewspaper />,
+        path: ROUTE_PATH.dashboard.blog,
       },
       {
-        name: "customers",
-        icon: <RiContactsLine />,
-      },
-    ],
-  },
-  {
-    title: "Apps",
-    links: [
-      {
-        name: "calendar",
-        icon: <AiOutlineCalendar />,
-      },
-      {
-        name: "kanban",
-        icon: <BsKanban />,
-      },
-      {
-        name: "editor",
-        icon: <FiEdit />,
-      },
-      {
-        name: "color-picker",
-        icon: <BiColorFill />,
-      },
-    ],
-  },
-  {
-    title: "Charts",
-    links: [
-      {
-        name: "line",
-        icon: <AiOutlineStock />,
-      },
-      {
-        name: "area",
-        icon: <AiOutlineAreaChart />,
-      },
-
-      {
-        name: "bar",
-        icon: <AiOutlineBarChart />,
-      },
-      {
-        name: "pie",
-        icon: <FiPieChart />,
-      },
-      {
-        name: "financial",
-        icon: <RiStockLine />,
-      },
-      {
-        name: "color-mapping",
-        icon: <BsBarChart />,
-      },
-      {
-        name: "pyramid",
-        icon: <GiLouvrePyramid />,
-      },
-      {
-        name: "stacked",
-        icon: <AiOutlineBarChart />,
+        name: "shop",
+        icon: <AiOutlineShop />,
+        path: ROUTE_PATH.dashboard.shop,
       },
     ],
   },

@@ -45,7 +45,7 @@ const Sidebar = () => {
                 </p>
                 {item.links.map((link) => (
                   <NavLink
-                    href={`/dashboard/${link.name}`}
+                    href={link.path}
                     key={link.name}
                     onClick={handleCloseSideBar}
                     activeLinkStyle={activeLink}
@@ -53,7 +53,7 @@ const Sidebar = () => {
                     backgroundColor={currentColor}
                   >
                     {link.icon}
-                    <span className="capitalize ">{link.name}</span>
+                    <span className="capitalize">{link.name}</span>
                   </NavLink>
                 ))}
               </div>

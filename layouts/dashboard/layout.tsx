@@ -27,7 +27,6 @@ const DBLayoutWithoutProvider = ({ children }: Props) => {
       setCurrentMode(currentThemeMode);
     }
   }, [setCurrentColor, setCurrentMode]);
-  console.log("menu", activeMenu);
 
   return (
     <div className={currentMode === "Dark" ? "dark" : ""}>

@@ -14,7 +14,7 @@ interface Props {
 
 export default function NavLink({
   href,
-  exact = false,
+  exact = true,
   children,
   activeLinkStyle,
   normalLinkStyle,
