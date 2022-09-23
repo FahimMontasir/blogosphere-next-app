@@ -1,58 +1,13 @@
 import type { ReactElement } from "react";
+import NavPage from "../../components/common/NavPage";
 import DBLayout from "../../layouts/dashboard";
 import { NextPageWithLayout } from "../_app";
 
 const ExplorePage: NextPageWithLayout = () => {
   return (
-    <>
-      <p>hello world</p>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-      <h1>sdlkfjsldf</h1>
-    </>
+    <NavPage title="Explore">
+      <p>home page or explore page</p>
+    </NavPage>
   );
 };
 

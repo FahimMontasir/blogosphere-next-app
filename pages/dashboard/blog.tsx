@@ -1,9 +1,14 @@
 import type { ReactElement } from "react";
+import NavPage from "../../components/common/NavPage";
 import DBLayout from "../../layouts/dashboard";
 import { NextPageWithLayout } from "../_app";
 
 const BlogPage: NextPageWithLayout = () => {
-  return <p>blog world</p>;
+  return (
+    <NavPage title="Blog">
+      <p>blog world</p>
+    </NavPage>
+  );
 };
 
 BlogPage.getLayout = function getLayout(page: ReactElement) {

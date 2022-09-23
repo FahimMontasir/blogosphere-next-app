@@ -1,8 +1,13 @@
+import dynamic from "next/dynamic";
 import React from "react";
 import { MdOutlineCancel } from "react-icons/md";
-import NavLink from "../../../components/common/NavLink";
 import { useDBThemeContext } from "../../../contexts/dbThemeContext";
 import { links } from "./Sidebar.config";
+
+// imported nav link dynamically to fix server side crush
+const NavLink = dynamic(() => import("../../../components/common/NavLink"), {
+  ssr: false,
+});
 
 const Sidebar = () => {
   const { currentColor, activeMenu, setActiveMenu, screenSize } =
@@ -26,7 +31,9 @@ const Sidebar = () => {
       {activeMenu && (
         <>
           <div className="flex justify-between items-center">
-            <button onClick={handleCloseSideBar}>logo</button>
+            <button onClick={handleCloseSideBar}>
+              <h1 className="text-2xl mt-5">BlogoSphere</h1>
+            </button>
 
             <button
               type="button"

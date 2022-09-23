@@ -57,7 +57,7 @@ const DBLayoutWithoutProvider = ({ children }: Props) => {
               : "bg-main-bg dark:bg-main-dark-bg  w-full min-h-screen flex-2 "
           }
         >
-          <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full ">
+          <div className="fixed md:static bg-white dark:bg-secondary-dark-bg navbar w-full shadow md:shadow-none">
             <Navbar />
           </div>
           <div>
