@@ -8,8 +8,8 @@ import DBLayout from "../../layouts/dashboard";
 import { NextPageWithLayout } from "../_app";
 
 const demoHeroData = [
-  { title: "Users", amount: 100 },
-  { title: "Views", amount: 1000 },
+  { title: "Users", amount: 100, lastUpdate: "2 mins ago" },
+  { title: "Views", amount: 1000, lastUpdate: "3 mins ago" },
 ];
 
 const ExplorePage: NextPageWithLayout = () => {
@@ -30,7 +30,7 @@ const ExplorePage: NextPageWithLayout = () => {
               title={d.title}
               amount={d.amount}
               icon={HeroIcons[d.title as keyof typeof HeroIcons]}
-              lastUpdate="1 min ago"
+              lastUpdate={d.lastUpdate}
             />
           ))}
         </div>
