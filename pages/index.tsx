@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -9,7 +10,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className="text-4xl">hello</h1>
+        <Link href="/dashboard">
+          <a className="bg-purple-700 text-white p-2 rounded-lg">
+            go to dashboard
+          </a>
+        </Link>
       </main>
     </>
   );

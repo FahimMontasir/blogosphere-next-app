@@ -10,6 +10,7 @@ import { NextPageWithLayout } from "../_app";
 const demoHeroData = [
   { title: "Users", amount: 100, lastUpdate: "2 mins ago" },
   { title: "Views", amount: 1000, lastUpdate: "3 mins ago" },
+  { title: "Earn", amount: 10000, lastUpdate: "5 mins ago" },
 ];
 
 const ExplorePage: NextPageWithLayout = () => {
@@ -18,6 +19,7 @@ const ExplorePage: NextPageWithLayout = () => {
   const HeroIcons = {
     Users: <MdOutlineCancel className="w-6 h-6" color={currentColor} />,
     Views: <MdDangerous className="w-6 h-6" color={currentColor} />,
+    Earn: <MdDangerous className="w-6 h-6" color={currentColor} />,
   };
 
   return (
