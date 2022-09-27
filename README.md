@@ -1,4 +1,6 @@
-# `Blogosphere`
+# `⚠️ ATTENTION!!! This web is in the process of continuous development`
+
+## `Blogosphere`
 
 is a full-featured blog publishing platform where you can earn money by writing blogs and selling products.
 
@@ -11,7 +13,7 @@ is a full-featured blog publishing platform where you can earn money by writing 
 
 `Technology used:` NextJs, TypeScript, Tailwind CSS, Redux Toolkit and Query, Mongoose
 
-# ` Blogosphere expo app`
+## ` Blogosphere expo app`
 
 [Repo link](https://github.com/FahimMontasir/blogosphere)
 
